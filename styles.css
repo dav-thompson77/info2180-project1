@@ -1,7 +1,7 @@
-/* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
 .container {
@@ -9,3 +9,217 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    background-color: white;
+    font-size: 18px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #6b7280;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #5A67D8;
+}
+
+.overview-hero {
+    background-color: #E2E8F0;
+    padding: 40px 0;
+}
+
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+}
+
+.overview-hero-image {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.overview-hero-text {
+    flex: 1;
+}
+
+.learn-about {
+    padding: 40px 0;
+}
+
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 0 15px 15px;
+}
+
+.card-body h3 {
+    font-size: 21px;
+    color: #48BB78;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #48BB78;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 60px 0;
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testing-desciption {
+    flex: 2;
+    padding-right: 40px;
+}
+
+.cta {
+    flex: 1;
+    text-align: right;
+}
+
+.stories {
+    padding: 40px 0;
+}
+
+.stories h2 {
+    color: #5A67D8;
+}
+
+.stories article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.stories article img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+
+.stories h3 {
+    font-size: 18px;
+}
+
+.stories a {
+    color: #5A67D8;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter input {
+    padding: 12px;
+    width: 300px;
+    border: none;
+    font-size: 16px;
+}
+
+.newsletter .btn {
+    background-color: #5A67D8;
+    border-radius: 0;
+}
+
+.newsletter .message {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.overview-hero-image img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.stories article img {
+    object-position: top;
+}
+
